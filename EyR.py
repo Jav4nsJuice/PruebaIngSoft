@@ -35,3 +35,9 @@ def RK4(t0, tf, presente, intervalo, pendiente, *args):
         if t0 >= tf:
             break
     return numpy.array(futuros), numpy.array(tiempos)
+
+def notThisOne():
+    print("This is the final version.")
+    print("YEAH DUDE")
+
+
